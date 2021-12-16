@@ -61,3 +61,14 @@ Figure 4: A graph depicting the change in the RMS spot radius at the paraxial fo
 ![RMSDL](https://user-images.githubusercontent.com/56391325/146379827-e70939a2-c132-46f3-8edf-ac425ae63741.png)
 
 Figure 5: A graph showing the relationships of the diffraction limit and the RMS spot radius with increasing beam size.
+
+
+
+
+## 🔗 Links
+[![linkedin](https://img.shields.io/badge/S.G.Jung-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/son-gyo-jung-655537135/)
+
+
+## License
+[![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://choosealicense.com/licenses/mit/)
+
