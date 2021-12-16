@@ -1,0 +1,31 @@
+Project A: An Optical Ray Tracer
+
+Written & designed by:
+Son-Gyo Jung 
+sgj14@ic.ac.uk
+Group A9 
+05.02.16
+
+Files included:
+- raytracerSJ.py
+- genpolarSJ.py
+- ExecuteRayTracerSJ.py
+
+This computational investigation involves using an optical ray tracing system to study the behaviour of optical rays through an optical system. Subsequently, performances of various optical lenses are studied by taking into account the effect of spherical aberration and the diffraction limit. Ultimately, a singlet lens is optimised into its best form for a given image distance of 100mm by minimising the effect of spherical aberration. 
+
+The module named raytracerSJ.py contains the main code for the optical system. It is responsible for modelling the propagation of a ray through a given optical element. It is comprised of functions that can calculate the paraxial focus, diffraction limit as well as the RMS spot radius. It also has the capacity to optimise a single lens for a given image distance.
+The module name genopolarSJ.py is responsible for generation the coordinates of the ray bundle. For given parameters, it is capable of producing a uniformly distributed rays with a particular radius. 
+Lastly, the module called the ExecuteRayTracerSJ.py was created in order to run the other modules with ease. For the three different investigations undertaken in this project, giving a ‘Model’ a name using a string will allow the user to replicate that particular optical system, and consequently yield all the results necessary for any analysis to be carried out.
+
+When opening ExecuteRayTracerSJ.py, the user will see the following:
+
+import raytracerSJ as rt
+reload(rt)
+
+'Insert the name of the model to be considered below:'
+#Write one of the following strings: 'singlesurface', 'plano-convex', 'convex-plano' or 'optimised'.
+Model = 'optimised'
+
+
+Here, the only thing the user needs to do is to replace the string 'optimised' with any other strings listed above and run the codes. It will generate all the numerical values and graphs for that particular system. It is not recommended, however, for the user to change any of the parameters or the codes below the line indicated in the module. Nevertheless, if the user wish to do so, he or she must consider the optical system they wish to consider and replace the current parameters with reasonable values that are consistent with the principle of geometric optics. 
+For more help please consider reading the docstrings implemented within the modules.

@@ -1,0 +1,27 @@
+'Results:'
+
+'Single Spherical Surface'
+RMS is 4.78622520607e-05m
+Diffraction limit is 5.88e-06m
+Paraxial focus is at 200.0mm
+
+'Plano-Convex'
+RMS is 7.03963882204e-05m
+Diffraction limit is 5.83585448916e-06m
+Paraxial focus is at 201.749226006mm
+
+'Convex-Plano'
+RMS is 1.85425262374e-05m
+Diffraction limit is 5.64202537524e-06m
+Paraxial focus is at 198.452812504mm
+
+'Biconvex'
+RMS is 6.06560960614e-08m
+Diffraction limit is 5.88e-06m
+Optimization terminated successfully.
+         Current function value: 0.000000
+         Iterations: 57
+         Function evaluations: 107
+
+The optimal curvatures for a given image distance of 202.5 mm are: First lens curvature = 0.0141749158946/mm, Second lens curvature = -0.00532044505389/mm.
+
