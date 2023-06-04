@@ -1,5 +1,6 @@
 # Computational modelling of ray propagation through optical elements using the principles of geometric optics (Ray Tracer)
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8003154.svg)](https://doi.org/10.5281/zenodo.8003154)
 
 ## Introduction
 
@@ -70,5 +71,7 @@ Figure 5: A graph showing the relationships of the diffraction limit and the RMS
 
 
 ## License
-[![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://choosealicense.com/licenses/mit/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+
 
